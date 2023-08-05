@@ -543,10 +543,11 @@ footer{
 
 .blog-headline{
     width: 90%;
-    height: 60vh;
+    height: 40vh;
     /* border: 3px solid red; */
     display: block;
     margin: auto;
+    overflow-y: hidden;
 }
 
 .blog-intro{
@@ -775,7 +776,7 @@ footer{
     }
 
     .blog-headline{
-        width: 90%;
+        width: 95%;
         height: fit-content;
         /* border: 3px solid red; */
         display: block;
@@ -798,7 +799,7 @@ footer{
     }
     
     .b-e-h{
-        font-size: 25pt;
+        font-size: 20pt;
         font-weight: bold;
         color:#555;
     }
@@ -813,7 +814,7 @@ footer{
     .b-e-c{
         width: 100%;
         line-height: 1.5;
-        font-size: 14pt;
+        font-size: 12pt;
     }
     
     .blog-source{
