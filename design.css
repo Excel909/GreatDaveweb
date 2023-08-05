@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #e5e5e5;
+    background-color: whitesmoke;
     width: 100%;
     height: 200%;
     overflow-y: scroll;
@@ -26,8 +26,8 @@ body{
     border-bottom: 2px solid lightgrey;
     position: relative;
     background-color: burlywood;
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
+    /* border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%; */
     overflow-y: hidden;
     overflow-x:hidden;
 }
@@ -56,7 +56,7 @@ body{
     position: absolute;
     left:0px;
     top:0px;
-    color: #e5e5e5;
+    color: whitesmoke;
     font-family: arial;
     text-transform: capitalize;
 }
@@ -108,7 +108,7 @@ body{
 }
 .links a{
     padding: 10px;
-    color: #e5e5e5;
+    color: whitesmoke;
     text-decoration: none;
     font-family: candara;
 }
@@ -189,7 +189,7 @@ body{
         height: fit-content;
         border-bottom: none;
         position: relative;
-        background-color: #e5e5e5;
+        background-color: whitesmoke;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         overflow-y: hidden;
@@ -207,7 +207,7 @@ body{
     .first-text{
         width: 100%;
         height:100%;
-        background-color: #e5e5e5;
+        background-color: whitesmoke;
         position: relative;
         left:0px;
         top:0px;
@@ -235,7 +235,7 @@ body{
     .nav-bar{
         width: 100%;
         height: 80px;
-        background-color: #e5e5e5;
+        background-color: whitesmoke;
         box-shadow: 0px 0px 5px #333;
         position: fixed;
         top: 0px;
@@ -288,7 +288,7 @@ body{
         position: absolute;
         top: 0px;
         left:-100%;
-        z-index: 1;
+        z-index: 2;
     }
 
     #mobile-nav:target{
@@ -343,17 +343,17 @@ body{
 
 /* Working on content */
 #content{
-    width: 80%;
+    width: 85%;
     height: 100%;
     margin: auto;
     padding: 10px;
-    /* background-color: #222; */
+    /* background-color: whitesmoke; */
     margin-top: 40px;
 }
 
 .heading-1{
     display:flex;
-    width: 60%;
+    width: 45%;
     height: fit-content;
     align-items: center;
     justify-content: space-around;
@@ -364,7 +364,7 @@ body{
 .line-1{
     width: 38%;
     padding: 1px;
-    background-color: grey;
+    background-color: burlywood;
 }
 
 .c-text{
@@ -377,7 +377,7 @@ body{
 .line-2{
     width: 38%;
     padding: 1px;
-    background-color: grey;
+    background-color: burlywood;
 }
 
 .quote{
@@ -402,7 +402,7 @@ body{
 .blog,.video,.quotes,.contact{
     width: 200px;
     height: 180px;
-    background-color:#e5e5e5;
+    background-color:whitesmoke;
     box-shadow: 0px 0px 3px 2px #ccc;
     border-radius: 10%;
 }
@@ -427,8 +427,8 @@ body{
 }
 
 .about{
-    width: 80%;
-    height: 40vh;
+    width: 90%;
+    height: 60vh;
     margin: auto;
     /* background-color: red; */
     margin-top: 30px;
@@ -440,6 +440,7 @@ body{
 .a-left{
     width: 40%;
     height: 100%;
+    background-color: burlywood;
 }
 
 .a-left-img{
@@ -449,13 +450,20 @@ body{
     border-radius: 10px;
 }
 
+.a-icons{
+    color:#222;
+    font-size: 14pt;
+}
+
+
 .a-right{
     width: 40%;
     height: 100%;
-    box-shadow:  0px 0px 5px 2px #ccc;
+    /* box-shadow:  0px 0px 5px 2px #ccc; */
     border-radius: 10px;
+    border: 1px solid burlywood;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .push-up{
@@ -467,6 +475,7 @@ body{
     text-align: center;
     font-size: 15pt;
     font-weight: bold;
+    color: grey;
 }
 
 .liner-3{
@@ -524,73 +533,76 @@ footer{
 #update-timer{
     background-color: #222;
     padding: 5px;
-    color: #e5e5e5;
+    color: whitesmoke;
     display: flex;
     gap: 20px;
     font-family: arial;
     font-size: 10pt;
 }
 
-.brief-blogs{
-    width: 100%;
-    height: 50vh;
-    /* background-color: red; */
-    /* border: 2px dotted grey; */
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
-.blog-card{
-    height: 50vh;
-    width: 250px;
-    box-shadow: 0px 0px 5px #333;
-    position: relative;
-    border-radius: 5px;
-}
-
-.blog-card:hover{
-    height: 55vh;
-    width: 280px;
-    box-shadow: 0px 0px 5px #333;
-    position: relative;
-    border-radius: 5px;
-    transition-duration: 1s;
-}
-
-.card-background{
-    width: 100%;
-    height: 100%;
-    position:relative;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.card-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.blog-text{
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    position:absolute;
-    top:0px;
-    left: 0px;
-    background-color: rgba(0,0,0,0.5);
-    color:white;
-}
-
-.bb-t{
-    width: 100%;
-    height: fit-content;
+.blog-headline{
+    width: 90%;
+    height: 60vh;
+    /* border: 3px solid red; */
+    display: block;
     margin: auto;
-    padding: 10px;
-    margin-top: 70%;
-    font-size: 13pt;
+}
+
+.blog-intro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog-entry{
+    width: 68%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.b-e-h{
+    font-size: 25pt;
+    font-weight: bold;
+    color:#555;
+}
+
+.b-date{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.b-e-c{
+    width: 70%;
+    line-height: 1.5;
+    font-size: 14pt;
+}
+
+.blog-source{
+    width: 30%;
+    height: 50%;
+    /* box-shadow: 0px 0px 3px #555; */
+    margin-top: 30vh;
+    background-color: white;
+    padding: 20px;
+}
+
+.b-s-t{
+    text-transform: capitalize;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+
+
+
+.foot-icon{
+    color: lightgrey;
+    padding: 5px;
 }
 
 
@@ -641,7 +653,7 @@ footer{
     .blog,.video,.quotes,.contact{
         width: 200px;
         height: 180px;
-        background-color:#e5e5e5;
+        background-color:whitesmoke;
         box-shadow: 0px 0px 3px 2px #ccc;
         border-radius: 10%;
         margin-top: 40px;
@@ -694,10 +706,8 @@ footer{
     .a-right{
         width: 100%;
         height: fit-content;
-        box-shadow:  0px 0px 5px 2px #ccc;
         border-radius: 10px;
         padding: 20px;
-        text-align: center;
         margin-top: 50px;
     }
     
@@ -763,68 +773,61 @@ footer{
         font-weight: bold;
         margin-right: 10px;
     }
-        
-    .brief-blogs{
-        width: fit-content;
+
+    .blog-headline{
+        width: 90%;
         height: fit-content;
-        margin: auto;
-        margin-top: 100px;
+        /* border: 3px solid red; */
         display: block;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .blog-card{
-        height: 55vh;
-        width: 250px;
-        box-shadow: 0px 0px 5px #333;
-        position: relative;
-        border-radius: 5px;
-        margin-top: 50px;
-    }
-    
-    .blog-card:hover{
-        height: 55vh;
-        width: 280px;
-        box-shadow: 0px 0px 5px #333;
-        position: relative;
-        border-radius: 5px;
-        transition-duration: 1s;
-    }
-    
-    .card-background{
-        width: 100%;
-        height: 100%;
-        position:relative;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-    
-    .card-img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-    .blog-text{
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        position:absolute;
-        top:0px;
-        left: 0px;
-        background-color: rgba(0,0,0,0.5);
-        color:white;
-    }
-    
-    .bb-t{
-        width: 100%;
-        height: fit-content;
         margin: auto;
-        padding: 10px;
-        margin-top: 70%;
-        font-size: 13pt;
     }
+    
+    .blog-intro{
+        width: 100%;
+        height: 100%;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .blog-entry{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding: 20px;
+    }
+    
+    .b-e-h{
+        font-size: 25pt;
+        font-weight: bold;
+        color:#555;
+    }
+    
+    .b-date{
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #444;
+    }
+    
+    .b-e-c{
+        width: 100%;
+        line-height: 1.5;
+        font-size: 14pt;
+    }
+    
+    .blog-source{
+       display: none;
+    }
+    
+    .b-s-t{
+        text-transform: capitalize;
+        font-size: 12pt;
+        margin-top: 5px;
+    }
+    
+    
+        
     
     
     
