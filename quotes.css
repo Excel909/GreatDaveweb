@@ -1,0 +1,173 @@
+@import url("design.css");
+
+.fitter{
+    height: fit-content;
+}
+
+#quote-body{
+    background-image:url("pyramid.jpg");
+    background-size: cover;
+}
+
+
+#q-content{
+    height:fit-content;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#quote-boxes{
+    width: 100%;
+    height:fit-content;
+    display: block;
+}
+
+.quote-searchbar{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    /* background-color: red; */
+    text-align: center;
+}
+
+#searchbar{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 13pt;
+}
+
+#searchbar:focus{
+    border: none;
+    border: 3px solid burlywood;
+}
+
+.noted{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+.noted ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.noted li{
+    margin-top: 20px;
+}
+
+.quote-box{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    background-color: whitesmoke;
+    height: 100px;
+}
+
+.quote-text{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.quote-name{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.quote-box:hover{
+    background-color: #ccc;
+}
+
+/* Media queries for quote page mobile interface */
+@media(max-width:900px){
+    
+.fitter{
+    height: fit-content;
+}
+
+#q-content{
+    height:fit-content;
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#quote-boxes{
+    width: 100%;
+    height:fit-content;
+    display: block;
+}
+
+.quote-searchbar{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    /* background-color: red; */
+    text-align: center;
+}
+
+#searchbar{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 13pt;
+}
+
+#searchbar:focus{
+    border: none;
+    border: 3px solid burlywood;
+}
+
+.noted{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    overflow-y: scroll;
+    height: 70vh;
+    margin-bottom: 100px;
+}
+
+.noted ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.noted li{
+    margin-top: 20px;
+}
+
+.quote-box{
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    background-color: whitesmoke;
+    height:fit-content;
+}
+
+.quote-text{
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+.quote-name{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.color-change{
+    color: white;
+}
+
+}
