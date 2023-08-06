@@ -1,0 +1,360 @@
+@import url("design.css");
+@import url("quotes.css");
+
+#video-content{
+    width: 85%;
+    height: fit-content;
+    /* background-color: red; */
+    /* border: 2px solid #333; */
+    margin:auto;
+    margin-top: 150px;
+}
+
+.video-push{
+    margin-top: 30px;
+
+}
+
+.vid-text{
+    font-size: 12pt;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.vid-big{
+    font-size: 25pt;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.vid-small{
+    font-size: 13pt;
+    width: 40%;
+    font-weight: normal;
+}
+.vid-color{
+    color:burlywood;
+}
+
+#video-split{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#video-screen{
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgrey;
+}
+
+#video-inner{
+    height: 90%;
+    background-color: #eee;
+
+}
+
+#v-s-t{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#video-list{
+    width: 50%;
+    height: 100%;
+    background-color:#eee;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.video-search-bar{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#vid-search{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12pt;
+}
+
+.vid-ul{
+    height: 100%;
+    overflow-y: scroll;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 10px;
+}
+
+.vid-ul ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.li-card{
+    width: 100%;
+    height:150px;
+    background-color: white;
+    box-shadow: 0px 0px 2px #ccc;
+    display: flex;
+}
+
+.preview{
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+}
+
+.tb{
+    width: 70%;
+    display: block;
+}
+
+.vid-title{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    padding: 20px;
+    font-weight: bold;
+    font-size: 13pt ;
+    color: #222;
+    text-transform: capitalize;
+}
+
+.tp{
+    color:#555;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.buttons{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    padding: 20px;
+}
+
+#screener{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: #555;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#youtuber{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgba(255, 0, 0, 0.815);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#youtuber:hover, #screener:hover{
+    opacity: 0.9;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+#video-content{
+    width: 100%;
+    height: fit-content;
+    /* background-color: red; */
+    /* border: 2px solid #333; */
+    margin:auto;
+    margin-top: 150px;
+}
+
+.video-push{
+    margin-top: 30px;
+
+}
+
+.vid-text{
+    font-size: 12pt;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.vid-big{
+    font-size: 22pt;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.vid-small{
+    font-size: 12pt;
+    width: 100%;
+    font-weight: normal;
+}
+.vid-color{
+    color:burlywood;
+}
+
+#video-split{
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    /* background-color: red; */
+    margin-top: 50px;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#video-screen{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid lightgrey;
+}
+
+#video-inner{
+    height: 90%;
+    background-color: #eee;
+}
+
+#v-s-t{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#video-list{
+    width: 100%;
+    height: 100vh;
+    background-color:#eee;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.video-search-bar{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#vid-search{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12pt;
+}
+
+.vid-ul{
+    height: 100%;
+    overflow-y: scroll;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 10px;
+}
+
+.vid-ul ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.li-card{
+    width: 100%;
+    height:100px;
+    background-color: white;
+    box-shadow: 0px 0px 2px #ccc;
+    display: flex;
+}
+
+.preview{
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+}
+
+.tb{
+    width: 70%;
+    display: block;
+}
+
+.vid-title{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13pt ;
+    color: #222;
+    text-transform: capitalize;
+}
+
+.tp{
+    color:#555;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.buttons{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    padding: 5px;
+    justify-content: space-around;
+    display: flex;
+}
+
+#screener{
+    width: 45%;
+    padding: 5px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: #555;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#youtuber{
+    width: 45%;
+    padding: 5px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgba(255, 0, 0, 0.815);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#youtuber:hover, #screener:hover{
+    opacity: 0.9;
+    cursor:pointer;
+}
+}
