@@ -649,21 +649,31 @@ footer{
         width:100%;
     }
 
+    .heading-1{
+        display:flex;
+        width: 70%;
+        height: fit-content;
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+        /* background-color: red; */
+    }
+
     .line-1{
-        width: 30%;
+        width: 20%;
         padding: 1px;
         background-color: grey;
     }
     
     .c-text{
-        width:40%;
+        width:60%;
         font-size: 15pt;
         font-family:candara;
         text-align: center;
     }
     
     .line-2{
-        width: 30%;
+        width: 20%;
         padding: 1px;
         background-color: grey;
     }
@@ -761,7 +771,7 @@ footer{
     }
     
     .push-up{
-        margin-top: 100px;
+        margin-top: 50px;
     }
     
     .a-header{
