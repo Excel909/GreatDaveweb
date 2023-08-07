@@ -37,148 +37,150 @@
     color:burlywood;
 }
 
-#video-split{
+#movies{
+    width: 90%;
+    height: fit-content;
+    background-color: #e5e5e5;
+    padding: 10px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.searchbar{
     width: 100%;
-    height: 60vh;
+    height: max-content;
+    padding:15px;
+    text-align: center;
+}
+
+#searcher{
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+    border:1px solid lightgrey;
+}
+
+#search-btn{
+    padding: 10px;
+    border: none;
+    width: 50px;
+    color: white;
+    background:#222;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.mrow{
+    width: 100%;
+    padding: 2px;
     /* background-color: red; */
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-#video-screen{
-    width: 50%;
-    height: 100%;
-    border: 1px solid lightgrey;
-}
-
-#video-inner{
-    height: 90%;
-    background-color: #eee;
-
-}
-
-#v-s-t{
-    text-align: center;
-    width: 100%;
-    padding: 5px;
-    font-weight: bold;
-}
-
-#video-list{
-    width: 50%;
-    height: 100%;
-    background-color:#eee;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    padding: 10px;
-}
-
-.video-search-bar{
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-}
-
-#vid-search{
-    width: 80%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    font-size: 12pt;
-}
-
-.vid-ul{
-    height: 100%;
-    overflow-y: scroll;
-    width: 100%;
-    /* background-color: red; */
-    margin-top: 10px;
-}
-
-.vid-ul ul{
-    list-style: none;
-    padding: 0;
-    margin:0;
-}
-
-.li-card{
-    width: 100%;
-    height:150px;
-    background-color: white;
+#movie-card{
+    width: 270px;
+    height: 200px;
     box-shadow: 0px 0px 2px #ccc;
-    display: flex;
-}
-
-.preview{
-    width: 30%;
-    height: 100%;
-    background-color: grey;
-}
-
-.tb{
-    width: 70%;
+    background-color: whitesmoke;
     display: block;
 }
 
-.vid-title{
+.div-1{
+    height: 80%;
+    background-color: red;
     width: 100%;
-    height: 50%;
-    /* background-color: blue; */
-    padding: 20px;
+}
+
+.div-2{
+    height: 20%;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-title{
+    width: 70%;
+    text-align: center;
     font-weight: bold;
-    font-size: 13pt ;
-    color: #222;
-    text-transform: capitalize;
 }
 
-.tp{
-    color:#555;
-    text-transform: uppercase;
-    margin-right: 10px;
+.div-menu{
+    width: 30%;
+    text-align: center;
+    position: relative;
 }
 
-.buttons{
-    width: 100%;
-    height: 50%;
+#div-bar:hover{
+    background-color: lightgrey;
+}
+
+#div-bar{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 15pt;
+}
+
+.rowe{
+    width: 130px;
+    background-color: whitesmoke;
+    position: absolute;
+    padding: 0px;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-top: -2px;
+    display: none;
+}
+
+.sub{
+    display: block;
+}
+
+.rowe ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rowe li{
     /* background-color: blue; */
-    padding: 20px;
+    height:50px;
 }
 
-#screener{
-    width: 150px;
-    padding: 10px;
-    border: none;
-    color: white;
+#vid-download,#vid-watch{
+    width: 100%;
+    height: 100%;
+    border:none;
+    color: black;
     text-transform: capitalize;
-    background-color: #555;
-    border-radius: 5px;
-    margin-right: 10px;
 }
 
-#youtuber{
-    width: 150px;
-    padding: 10px;
-    border: none;
-    color: white;
-    text-transform: capitalize;
-    background-color: rgba(255, 0, 0, 0.815);
-    border-radius: 5px;
-    margin-right: 10px;
+#vid-download:hover,#vid-watch:hover{
+    background-color: lightgrey;
 }
 
-#youtuber:hover, #screener:hover{
-    opacity: 0.9;
-    cursor:pointer;
+#card-container{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    position: fixed;
 }
 
 
 
-
-
-
-
+@media(max-width:900px){
 
 #video-content{
     width: 100%;
@@ -219,142 +221,5 @@
     color:burlywood;
 }
 
-#video-split{
-    width: 95%;
-    height: fit-content;
-    margin: auto;
-    /* background-color: red; */
-    margin-top: 50px;
-    display: block;
-    justify-content: space-around;
-    align-items: center;
-}
 
-#video-screen{
-    width: 100%;
-    height: 50vh;
-    border: 1px solid lightgrey;
-}
-
-#video-inner{
-    height: 90%;
-    background-color: #eee;
-}
-
-#v-s-t{
-    text-align: center;
-    width: 100%;
-    padding: 5px;
-    font-weight: bold;
-}
-
-#video-list{
-    width: 100%;
-    height: 100vh;
-    background-color:#eee;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    padding: 10px;
-    margin-top: 50px;
-}
-
-.video-search-bar{
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-}
-
-#vid-search{
-    width: 80%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    font-size: 12pt;
-}
-
-.vid-ul{
-    height: 100%;
-    overflow-y: scroll;
-    width: 100%;
-    /* background-color: red; */
-    margin-top: 10px;
-}
-
-.vid-ul ul{
-    list-style: none;
-    padding: 0;
-    margin:0;
-}
-
-.li-card{
-    width: 100%;
-    height:100px;
-    background-color: white;
-    box-shadow: 0px 0px 2px #ccc;
-    display: flex;
-}
-
-.preview{
-    width: 30%;
-    height: 100%;
-    background-color: grey;
-}
-
-.tb{
-    width: 70%;
-    display: block;
-}
-
-.vid-title{
-    width: 100%;
-    height: 50%;
-    /* background-color: blue; */
-    padding: 10px;
-    font-weight: bold;
-    font-size: 13pt ;
-    color: #222;
-    text-transform: capitalize;
-}
-
-.tp{
-    color:#555;
-    text-transform: uppercase;
-    margin-right: 10px;
-}
-
-.buttons{
-    width: 100%;
-    height: 50%;
-    /* background-color: blue; */
-    padding: 5px;
-    justify-content: space-around;
-    display: flex;
-}
-
-#screener{
-    width: 45%;
-    padding: 5px;
-    border: none;
-    color: white;
-    text-transform: capitalize;
-    background-color: #555;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-#youtuber{
-    width: 45%;
-    padding: 5px;
-    border: none;
-    color: white;
-    text-transform: capitalize;
-    background-color: rgba(255, 0, 0, 0.815);
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-#youtuber:hover, #screener:hover{
-    opacity: 0.9;
-    cursor:pointer;
-}
 }
