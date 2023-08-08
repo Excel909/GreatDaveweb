@@ -1,7 +1,18 @@
 
+$('#video-back').click(function(){
+    location.reload();
+});
 
-//Code for the enlargement of videos when clicked on
-var putter = document.getElementById("vid-watch");
+$('#video-back').hide();
+
+//card container
+$('#card-container').hide();
+
+
+
+$('.vid-watch').each(function(){
+    $(this).click(addVideo);
+});
 
 function getTarget(e){
     if(!e){
@@ -9,11 +20,6 @@ function getTarget(e){
     } return e.target || e.srcElement;
 }
 
-if(putter.addEventListener){
-    putter.addEventListener("click", addVideo, false);
-} else{
-    putter.attachEvent("onclick", addVideo, false);
-};
 
 function addVideo(e){
     var click = getTarget(e);
@@ -31,7 +37,7 @@ function addVideo(e){
     var card_show = document.getElementById("card-show");
 
     $('#card-container').show();
-    $('#rowe').hide();
+    $(lister).hide();
     $('.div-2').hide();
 
     var div_one = document.getElementById('div-1');
@@ -46,12 +52,25 @@ function addVideo(e){
     $('#video-back').show();
 }
 
-//Code to remove video from card-show and return back to mrow
-$('#video-back').click(function(){
-    location.reload();
-});
 
-$('#video-back').hide();
+// for video search bar
 
-//card container
-$('#card-container').hide();
+var searchbox = document.getElementById("searcher");
+var search_btn = document.getElementById("search-btn");
+
+search_btn.addEventListener("click", search_quotes, false);
+
+function search_quotes() { 
+    let input = document.getElementById('searcher').value;
+    input=input.toLowerCase(); 
+    let x = document.getElementsByClassName('movie-card'); 
+      
+    for (i = 0; i < x.length; i++) {  
+        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+            x[i].style.display="none"; 
+        } 
+        else { 
+            x[i].style.display="list-item";                  
+        } 
+    } 
+} 
