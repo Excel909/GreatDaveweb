@@ -103,7 +103,15 @@
         </div>
            
         <div id="card-container">
+            <div id="card-show">
+                <div class="back-btn">
+                    <button type="button" id="video-back">Go back</button>
+                </div>
+            </div>
 
+            <div id="show-bio">
+
+            </div>
         </div>
 
             
@@ -113,17 +121,60 @@
                     <input type="search" id="searcher" placeholder="Search Video..."><button id="search-btn" type="button"><i class="fas fa-search"></i></button>
                 </div>
 
-                <div class="mrow">
+                <div class="mrow" id="mrow">
                     <div id="movie-card">
-                        <div class="div-1">
-
+                        <div class="div-1" id="div-1">
+                            <iframe id="all-videos" src="https://www.youtube.com/embed/nomxXk6Q1rk?list=RDnomxXk6Q1rk" title="Glorious - David Archuleta | One Voice Children&#39;s Choir | Kids Cover (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
 
-                        <div class="div-2">
-                            <div class="div-title">ARICA WAKE UP!!</div>
+                        <div class="div-2" id="div-2">
+                            <div class="div-title">AFRICA WAKE UP!!</div>
                             <div class="div-menu">
-                                <button id="div-bar" class="div-bar" ><i class="fa-solid fa-ellipsis fa-rotate-90"></i></button>
-                                <div class="rowe" id="rowe">
+                                <button id="div-bar" class="bar-1" ><i class="fa-solid fa-ellipsis fa-rotate-90"></i></button>
+                                <div class="rowe vid-1" id="rowe">
+                                    <ul>
+                                        <li><button id="vid-download">download</button></li>
+                                        <li><button id="vid-watch">Watch video</button></li>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second video -->
+                    <div id="movie-card">
+                        <div class="div-1" id="div-1">
+                            <iframe id="all-videos" src="https://www.youtube.com/embed/nomxXk6Q1rk?list=RDnomxXk6Q1rk" title="Glorious - David Archuleta | One Voice Children&#39;s Choir | Kids Cover (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="div-2" id="div-2">
+                            <div class="div-title">a frustrated nigerian student</div>
+                            <div class="div-menu">
+                                <button id="div-bar" class="bar-2" ><i class="fa-solid fa-ellipsis fa-rotate-90"></i></button>
+                                <div class="rowe vid-2" id="rowe">
+                                    <ul>
+                                        <li><button id="vid-download">download</button></li>
+                                        <li><button id="vid-watch">Watch video</button></li>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Third video -->
+                    <div id="movie-card">
+                        <div class="div-1" id="div-1">
+                            <iframe id="all-videos" src="https://www.youtube.com/embed/nomxXk6Q1rk?list=RDnomxXk6Q1rk" title="Glorious - David Archuleta | One Voice Children&#39;s Choir | Kids Cover (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="div-2" id="div-2">
+                            <div class="div-title">a frustrated nigerian student</div>
+                            <div class="div-menu">
+                                <button id="div-bar" class="bar-3" ><i class="fa-solid fa-ellipsis fa-rotate-90"></i></button>
+                                <div class="rowe vid-3" id="rowe">
                                     <ul>
                                         <li><button id="vid-download">download</button></li>
                                         <li><button id="vid-watch">Watch video</button></li>
@@ -157,7 +208,7 @@
     </div>
 
     <script type="text/javascript" src="video.js"></script>
-    <!-- <script src="code.jquery.com_jquery-3.7.0.min.js"></script> -->
+    <script type="text/javascript" src="ellipse-buttons.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 </body>

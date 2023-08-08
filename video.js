@@ -1,13 +1,4 @@
-// code for the showing and hiding of rowe id
-$(document).ready(function(){
-    $('#div-bar').click(function () {
-       if ($('#rowe').is(':hidden')) {
-           $('#rowe').show();
-       } else {
-           $('#rowe').hide();
-       }
-     }); 
-   });
+
 
 //Code for the enlargement of videos when clicked on
 var putter = document.getElementById("vid-watch");
@@ -35,14 +26,32 @@ function addVideo(e){
     var m_row = movie_card.parentNode;
     var movie_holder = m_row.parentNode;
 
-    
 
-    var card_contain = document.getElementById("card-container");
-    card_contain.style.display = "block";
+    var card_contain = document.getElementById("card-container"); 
+    var card_show = document.getElementById("card-show");
 
-    card_contain.appendChild(movie_card);
+    $('#card-container').show();
+    $('#rowe').hide();
+    $('.div-2').hide();
+
+    var div_one = document.getElementById('div-1');
+    div_one.style.height = "100%";
+    var back_btn = document.getElementById("video-back");
+
+    movie_card.setAttribute("id", "card-show-mcard");
+
+    card_show.appendChild(movie_card);
+    card_show.appendChild(back_btn);
+
+    $('#video-back').show();
 }
 
+//Code to remove video from card-show and return back to mrow
+$('#video-back').click(function(){
+    location.reload();
+});
 
-   
-   
+$('#video-back').hide();
+
+//card container
+$('#card-container').hide();
