@@ -167,7 +167,7 @@
     /* for slideshow */
 
     .intro{
-        height: 70vh;
+        height: 67vh;
         width: 100%;
         overflow-y: hidden;
         margin-top: 80px;
@@ -186,6 +186,10 @@
         top: 50px;
         margin: auto;
         height: fit-content;
+    }
+
+    .about-head{
+        color: #222;
     }
     
     .bio-split{
