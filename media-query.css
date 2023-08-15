@@ -204,7 +204,7 @@
     
     .bio-pic{
         width: 100%;
-        height: 40vh;
+        height: 37vh;
         margin-bottom: 20px;
     }
     
@@ -371,6 +371,7 @@
 
     .fs-icon{
         margin-left: 30px;
+        color: gray;
     }
 
     .foot-inner{
@@ -384,6 +385,10 @@
 
     .foot-media{
         color:#d4d4d4;
+    }
+
+    .nav-non{
+        display: none;
     }
 }
 
