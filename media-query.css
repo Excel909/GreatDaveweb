@@ -50,7 +50,7 @@
     }
 
     .logo-text{
-        color: #222;
+        color: #2f4563;
         font-size: 14pt;
     }
     
@@ -385,10 +385,12 @@
 
     .foot-heading{
         color: grey;
+        font-size: 20pt;
     }
 
     .foot-media{
         color:#d4d4d4;
+        font-size: 11pt;
     }
 
     .nav-non{
