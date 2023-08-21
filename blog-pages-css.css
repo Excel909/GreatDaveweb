@@ -1,0 +1,349 @@
+@import url("video.css");
+/* @import url('home.css'); */
+
+*{
+    font-family: calibri;
+}
+#blog-container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#blog-content{
+    width: 75%;
+    height: 100%;
+}
+
+.blog-video{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+}
+
+.bvid{
+    height: 80%;
+    /* background-color: green; */
+    width: 100%;
+}
+
+/* class for the youtube video */
+.bb-vid{
+    width: 100%;
+    height: 100%;
+}
+
+.b-btn{
+    width: 100%;
+    height: 20%;
+    background-color: #2a3e5a;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.b-title{
+    width: fit-content;
+    height: fit-content;
+    font-size: 16pt;
+}
+
+.bb{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    height: 100%;
+    align-items: center;
+}
+
+.bb-btn{
+    width: fit-content;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.bb-btn:hover{
+    cursor: pointer;
+}
+
+.b-up{
+    font-size: 16pt;
+}
+
+.b-down{
+    font-size: 11pt;
+}
+
+
+/* cinema mode */
+#vid-display{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(31, 30, 30, 0.87);
+    z-index: 20;
+}
+
+.socials{
+    width: 100%;
+    height: 7vh;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+}
+
+.socials:hover{
+    cursor: pointer;
+}
+
+.fs{
+    width: 160px;
+    height: 100%;
+    background-color: rgb(12, 60, 107);
+    color: white;
+    display: flex;
+}
+
+.ys{
+    width: 160px;
+    height: 100%;
+    background-color: rgb(167, 12, 12);
+    color: white;
+    display: flex;
+    margin-left: 20px;
+}
+
+.s-logo{
+    width:30%;
+    height:100%;
+    background-color: rgb(14, 47, 80);
+    text-align: center;
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-logo-2{
+    width:30%;
+    height:100%;
+    background-color: rgb(107, 6, 6);
+    text-align: center;
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-name{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.blog-post{
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.blog-title{
+    width: 100%;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+.blog-talks{
+    width: 100%;
+    line-height: 1.5;
+    font-size: 13pt;
+    margin-top: 30px;
+}
+
+.post-bio{
+    width: 100%;
+    height: 40vh;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    display: flex;
+    /* background-color: #e5e5e5; */
+    padding: 10px;
+}
+
+.post-pic{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+}
+
+.post-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.post-talk{
+    width: 55%;
+    padding: 10px;
+}
+
+.post-name{
+    padding: 0px;
+    width: 100%;
+    height: fit-content;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.post-about{
+    line-height: 1.5;
+    font-size: 13pt;
+}
+
+
+.referrals{
+    width: 100%;
+    height: fit-content;
+    /* border:1px solid black; */
+    margin-top: 60px;
+}
+
+.ref-text{
+    width: 100%;
+    height: fit-content;
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.ref-list{
+    width: 100%;
+    display: flex;
+    height: 40vh;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ref-card{
+    width: 31%;
+    /* border: 1px solid lightgrey; */
+    height: 100%;
+    display: block;
+    background-color: white;
+}
+
+.ref-img{
+    width: 100%;
+    height: 60%;
+}
+
+.ref-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ref-link{
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.ref-category{
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #2a3e5a;
+}
+
+.ref-heading{
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.ref-heading:hover{
+    color: #23334b;
+    cursor: pointer;
+}
+
+.ref-views{
+    font-size: 10pt;
+    text-transform: capitalize;
+    color: grey;
+}
+
+
+#comments{
+    width: 100%;
+    height: 50vh;
+    /* background-color: red; */
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+#blog-adverts{
+    width: 25%;
+    height: 100%;
+    border: 1px solid lightgrey;
+}
+
+.blog-bio{
+    width: 100%;
+    height: 50vh;
+    /* background-color: red; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.blog-pic{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.blog-img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.bio-name{
+    width: 100%;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.fancy{
+    width:140px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #23334b;
+    color: white;
+    padding: 10px;
+    font-size: 10pt;
+    margin-top: 50px;
+}
+
+
+

@@ -67,11 +67,16 @@ body{
 
 .row-1{
     width: 100%;
-    height: 100px;
-    background-color: #2f4563;
+    height: 80px;
+    background-color: #fafbfd;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* position:fixed; */
+    top: 0px;
+    left: 0px;
+    /* box-shadow: 0px 2px 5px #; */
+    z-index: 4;
 }
 
 .row-1-inner{
@@ -90,6 +95,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap:2px;
 }
 
 .symbol{
@@ -105,7 +111,9 @@ body{
 .logo-text{
     font-weight: bold;
     margin-left: 3px;
-    color: white;
+    color: #222;
+    font-size:13pt;
+    text-transform: uppercase;
 }
 
 
@@ -125,17 +133,18 @@ body{
 }
 
 .link-1 a,.link-2 a,.link-3 a,.link-4 a, .link-5 a{
-    color: whitesmoke;
+    color: #444;
     text-decoration: none;
     padding: 10px;
-    font-weight: bold ;
     /* background: red; */
-    font-family:corbel;
-    font-size: 14pt;
+    font-family:calibri;
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .link-1:hover,.link-2:hover,.link-3:hover,.link-4:hover, .link-5:hover{
-    color:whitesmoke;
+    color:#2f4563;
     cursor: pointer;
 }
 
@@ -144,7 +153,7 @@ body{
 }
 
 .link-1:hover > a,.link-2:hover > a,.link-3:hover > a,.link-4:hover > a, .link-5:hover > a{
-    color: whitesmoke;
+    color:#2f4563;
 }
 
 .pointer{
@@ -160,23 +169,25 @@ body{
 }
 
 .contact{
-    width: 20%;
+    width: 10%;
     text-align: center;
+    font-size: 16pt;
+    color: #2f4563;
 }
 
-.contacter{
+/* .contacter{
     width: 60%;
     padding: 10px;
     background-color: #222;
     color: white;
     border: none;
     border-radius: 5px;
-}
+} 
 
 .contacter:hover{
     opacity: 0.9;
     cursor:pointer;
-}
+} */
 
 #m-nav{
     display: none;
@@ -407,7 +418,7 @@ body{
 }
 
 .col-icon{
-    background-color: #222;
+    background-color: #2f4563;
     color: white;
     width: 70px;
     margin: auto;
