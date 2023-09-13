@@ -63,7 +63,7 @@
     }
     
     .post-name{
-        padding: 0px;
+        padding: 10px;
         width: 100%;
         height: fit-content;
         font-size: 16pt;
@@ -74,6 +74,27 @@
         line-height: 1.5;
         font-size: 13pt;
     }
+
+    .ref-text{
+        font-size: 13pt;
+        padding: 5px;
+        height: 10vh;
+    }
+
+    .ref-list{
+        display: block;
+        height: fit-content;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .ref-card{
+        width:100%;
+        margin-top: 20px;
+        height: 45vh;
+    }
+
+
     
 
 
