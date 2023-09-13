@@ -316,9 +316,6 @@
 
 
 
-
-
-
     /* Working on the queries from after slide */
     .site{
         display: block;
@@ -337,62 +334,139 @@
         margin-left: 0px;
     }
 
-    .blog-preview{
-        width: 100%;
-        height: fit-content;
-    }
 
-    .b-inner{
-        position: relative;
-    }
-    .bp-boxes{
-        width: 100%;
-        display: block;
-        text-align: center;
-        height: fit-content;
-    }
 
-    .bp-box{
-        /* float: left; */
+    .grid{
+        height: fit-content;
+        width: 95%;
         margin: auto;
-        margin-top: 20px;
-        width: 220px;
+        /* border: 1px solid #222; */
+        margin-top: 60px;
+        display:block;
     }
-
-    .more{
-        margin-top: 20px;
+    
+    .grid-left{
+        /* background-color: orange; */
+        width:100%;
+        height: 50vh;
+        padding: 10px;
     }
-
-    footer{
-        margin-top: 300px;
-        height: fit-content;
+    
+    .grid-text{
+        font-size: 17pt;
+        font-weight: bold;
     }
-
-    .foot-social{
-        height: 10vh;
-        font-size: 13pt;
+    
+    .grid-pic{
+        width:240px;
+        height: 220px;
+        background-color: #2a3e5a;
+        margin: auto;
+        border-bottom-left-radius:100%;
+        border-top-left-radius:100%;
+        border-top-right-radius:100%;
+        border-bottom-right-radius:10%;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        color: white;
+        font-family: calibri;
+        box-shadow: 10px 10px 25px 0px #585c61;
     }
-
-    .fs-icon{
-        margin-left: 30px;
-        color: gray;
-    }
-
-    .foot-inner{
-        width: 85%;
+    
+    .grid-img{
+        width: 100%;
         height: 100%;
-    }   
-
-    .foot-heading{
-        color: grey;
-        font-size: 20pt;
+        object-fit: cover;
     }
-
-    .foot-media{
-        color:#d4d4d4;
-        font-size: 11pt;
+    
+    .grid-right{
+        /* background-color: orangered; */
+        width: 100%;
+        height: 30vh;
+        border:2px solid lightgrey;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
     }
+    
+    .grid-logo{
+        font-family: arial;
+        font-weight: bold;
+        font-size: 30pt;
+        color: #2a3e5a;
+        animation-name: gridlogo;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    
+    @keyframes gridlogo{
+        0%{
+            color: #111;
+        }
+    
+        25%{
+            color: #ccc;
+        }
+    
+        75%{
+            color: #2f4563;
+        }
+    
+        100%{
+            color: #2a3e5a;
+        }
+    }
+    
+    .preview-grid{
+        color: white;
+        width: 90%;
+        margin: auto;
+        margin-top:50px;
+        display: grid;
+        height: 70vh;
+        grid-template-columns: auto auto;
+        overflow: hidden; 
+        border-radius: 10px;
+    } 
 
+
+
+    
+    
+    /* FOR THE FOOTER */
+    #blog-pages-foot{
+        width: 100%;
+        height: fit-content;
+        background-color: #2a3e5a;
+        margin-top: 100px;
+        font-family: calibri;
+    }
+    
+    .foot-inner-1{
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .rcol-1{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    
+    .rcol-2{
+        display: none;
+    }
+    
+    
+    
+    
+    
     .nav-non{
         display: none;
     }

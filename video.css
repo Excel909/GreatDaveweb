@@ -28,7 +28,7 @@
     width: 100%;
     height: 60vh;
     background-color: #e4e4e4;
-    margin-top: 80px;
+    margin-top: 85px;
 }
 
 .youtube-index{
@@ -229,6 +229,11 @@
     height: 100%;
     /* border: 1px solid #ccc; */
     padding: 10px;
+}
+
+.vid-bp a{
+    color: #222;
+    text-decoration: none;
 }
 
 .vid-pb:hover{

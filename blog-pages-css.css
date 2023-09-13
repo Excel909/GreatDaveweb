@@ -17,6 +17,8 @@
 #blog-content{
     width: 75%;
     height: 100%;
+    background-color: white;
+    padding: 5px;
 }
 
 .blog-video{
@@ -62,6 +64,11 @@
     align-items: center;
 }
 
+.bb a{
+    color: white;
+    text-decoration: none;
+}
+
 .bb-btn{
     width: fit-content;
     display: block;
@@ -102,6 +109,9 @@
     display: flex;
 }
 
+.socials a{
+    text-decoration: none;
+}
 .socials:hover{
     cursor: pointer;
 }
@@ -165,6 +175,15 @@
     width: 100%;
     font-size: 17pt;
     font-weight: bold;
+}
+.b-show{
+    display: flex;
+    gap: 20px;
+    color: rgb(61, 58, 58);
+}
+
+.b-date{
+    color: rgb(61, 58, 58);
 }
 
 .blog-talks{
@@ -266,6 +285,10 @@
     text-transform: capitalize;
 }
 
+.ref-link a{
+    text-decoration: none;
+}
+
 .ref-category{
     font-size: 10pt;
     text-transform: uppercase;
@@ -276,6 +299,7 @@
     font-size: 14pt;
     font-weight: bold;
     margin-top: 5px;
+    color: #222;
 }
 
 .ref-heading:hover{
@@ -292,13 +316,13 @@
 
 #comments{
     width: 100%;
-    height: 50vh;
+    height: fit-content;
     /* background-color: red; */
     margin-top: 100px;
 }
 
 #commento{
-    border:1px solid gray;
+    border:1px solid rgb(240, 236, 236);
     height: 100%;
     width: 100%;
 }
@@ -312,8 +336,11 @@
 
 #blog-adverts{
     width: 25%;
-    height: 100%;
-    border: 1px solid lightgrey;
+    height: inherit;
+    /* border: 1px solid lightgrey; */
+    position: absolute;
+    top: 100px;
+    right: 0px;
 }
 
 .blog-bio{
@@ -350,6 +377,10 @@
     padding: 10px;
     font-size: 10pt;
     margin-top: 50px;
+}
+
+.fancy:hover{
+    cursor: pointer;
 }
 
 

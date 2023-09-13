@@ -35,4 +35,8 @@ exit_btn.addEventListener('click', function(){
 }, false);
 
 
+// for counting page views
 
+$.getJSON("https://api.countapi.xyz/hit/greatdhistory.vercel.app/visits", function(response) {
+    $("#visits").text(response.value);
+});

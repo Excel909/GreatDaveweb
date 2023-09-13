@@ -1,0 +1,8 @@
+pages names and there html file names
+
+home >> index.html
+posts >> posts.html
+videos >> videos.html
+quotes >> quotes.html
+contact >> contact.html
+
