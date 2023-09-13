@@ -231,12 +231,12 @@
     padding: 10px;
 }
 
-.vid-bp a{
+.vid-pb a{
     color: #222;
     text-decoration: none;
 }
 
-.vid-pb:hover{
+.vid-pb a:hover{
     color: #2f4563;
     cursor: pointer;
 }
