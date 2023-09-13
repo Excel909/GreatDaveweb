@@ -24,7 +24,7 @@
     
     
     .yi-vid{
-        width: 100%;
+        width: 95%;
         height: 100%;
         margin: auto;
     }
@@ -58,6 +58,7 @@
         text-transform: uppercase;
         font-size: 11pt;
         color: white;
+        border-right: 2px solid rgb(90, 85, 85);
     }
     
     .vb-1:hover,.vb-2:hover,.vb-3:hover{
