@@ -4,6 +4,7 @@
 *{
     font-family: calibri;
 }
+
 #blog-container{
     width: 90%;
     height: 100%;
@@ -322,7 +323,7 @@
 }
 
 #commento{
-    border:1px solid rgb(240, 236, 236);
+    /* border:1px solid rgb(240, 236, 236); */
     height: 100%;
     width: 100%;
 }
