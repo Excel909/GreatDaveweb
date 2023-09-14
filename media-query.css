@@ -452,6 +452,12 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    .foot-media{
+        margin-left: 15px;
+        font-family: candara;
+        color: #999;
+    }
     
     .rcol-1{
         width: 100%;
