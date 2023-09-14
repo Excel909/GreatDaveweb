@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>greatdavevideos</title>
-    <link rel="stylesheet" type="text/css" href="video.css">
-    <link rel="stylesheet" type="text/css" href="vid-media-queries.css">
+    <title>Contact us</title>
+
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="contact-media-queries.css">
 
     <script src="code.jquery.com_jquery-3.7.0.js" type="text/javascript"></script>
     <script type="text/javascript" src="code.jquery.com_jquery-3.7.0.min.js"></script>
@@ -21,19 +22,8 @@
      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </head>
 <body>
-
-<div id="vid-container">
-
-    <div id="display">
-        <div id="exiter">
-            <i class="fa-solid fa-xmark"></i>
-        </div>
-
-        <div id="vid-holder">
-
-        </div>
-    </div>
     
+
     <div id="m-nav" class="m-nav">
             
         <div class="m-exit">
@@ -46,7 +36,6 @@
                 <li><a href="video.html">Videos <i class="fa fa-video"></i></a></li>
                 <li><a href="#">Posts<i class="fa-solid fa-blog"></i></a></li>
                 <li><a href="#">Quotes <i class="fa-solid fa-quote-left"></i></a></li>
-                <li><a href="contact.html">Contact<i class="fa fa-mobile"></i></a></li>
             </ul>
         </div>
 
@@ -56,7 +45,8 @@
        
     </div>
 
-    <div class="row-1 vid-nav">
+
+    <div class="row-1 contact-nav">
         <div class="row-1-inner">
             <div class="logo">
                 <div class="symbol">G</div><div class="logo-text">GD</div>
@@ -78,9 +68,6 @@
                     <a href="#">Quotes</a>
                 </div>
 
-                <div class="link-5">
-                    <a href="contact.html">Contact</a>
-                </div>
             </div>   
             
             <div class="contact">
@@ -93,87 +80,56 @@
         </div>
     </div>
 
-    <div class="vid-index">
-        <div class="youtube-index">
-            <div class="yi-vid">
-                <iframe class="yvv" src="https://www.youtube.com/embed/h9WIueYujMc" title="What If the internet crashes forever?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    <div id="contact-class">
+        <div class="form">
+            <div class="email-sender">
+                <div class="f-heading">
+                    Send us a message &nbsp;&nbsp; <i class="fa-solid fa-comments"></i>
+                </div>
+
+                <div class="f-form">
+                    <form id="contact-form" method="POST" action="mailto:excellentadejorin@gmail.com">
+                        <label for="name"> Name:<br>
+                            <input type="text" class="dp1" name="name" id="name" minlength="3" required>
+                        </label><p></p>
+
+                        <label for="email"> Email:<br>
+                            <input type="email" class="dp1" name="email" id="email" minlength="11" required>
+                        </label><p></p>
+
+                        <label for="phone"> Phone Number:<br>
+                            <input type="tel" class="dp1" name="tel" id="phone" minlength="10" required>
+                        </label><p></p>
+
+                        <label for="message"> Message:<br>
+                            <textarea class="dp2" id="message" name="message" minlength="10" ></textarea>
+                        </label><p></p>
+
+                        <label type="button">
+                            <button type="submit" id="button">Send Message</button>
+                        </label>
+                    </form>
+                </div>
             </div>
         </div>
 
-        <div class="vid-buttons">
-            <div class="vb-1">
-                <a href="https://www.youtube.com/@greatdave22">
-                    <span class="increase"><i class="fa fa-television"></i></span><br>
-                    <span class="reduce">watch later</span> 
-                </a>
-            </div>
-
-            <div class="vb-2">
-                    <span class="increase"><i class="fa fa-expand"></i></span><br>
-                    <span class="reduce">cinema mode</span> 
-            </div>
-
-            <div class="vb-3">
-                <a href="https://www.youtube.com/@greatdave22">
-                    <span class="increase"><i class="fa fa-check"></i></span><br>
-                    <span class="reduce">subscribe</span> 
-                </a>
-            </div>
-
-        </div>
-    </div>
-
-    <div id="vid-content">
-        
-        <div class="vid-split">
-            <div class="vid-left">
-                <div class="vl-text">
-                    latest videos
-                </div>
-
-                
-
-
-                <div class="vid-card">
-                    <div class="vid-preview">
-                        <img src="https://images.unsplash.com/photo-1553775927-a071d5a6a39a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=787&q=80" class="blog-views">
-                    </div>
-
-                    <div class="vid-pb">
-                       <a href="Africa-wake-up.html">
-                        <div class="vid-category">
-                            History
-                        </div>
-
-                        <div class="vid-title">
-                            AFRICA WAKE UP!!
-            
-                        </div>
-
-                        <div class="vid-time">
-                            2 days ago
-                        </div>
-
-                        <div class="vbp">
-                            Africa in scramble, tell me who's gonna configure it? Despite all it's resources, majority in poverty. Compromise and greed jeopardizing it's economy selfishness and hate the order of the society so am here to ask africans what is happening...
-                        </div>
-                       </a>
-                    
+        <div class="info">
+            <div class="info-details">
+                <div class="d-heading">
+                    Contact us
+                    <div class="d-small">
+                        We're open to any suggestion or we can just have 
                     </div>
                 </div>
-            </div>
 
-            <div class="vid-right">
-                <div class="vr-text">
-                    categories
-                </div>
-
-                <div class="vr-list">
+                <div class="detailers">
                     <ul>
-                        <li><div class="vid-lister">1</div>&nbsp;&nbsp; Colonial</li>
-                        <li><div class="vid-lister">1</div>&nbsp;&nbsp; Slavery</li>
-                        <li><div class="vid-lister">1</div>&nbsp;&nbsp; Asian</li>
-                        <li><div class="vid-lister">1</div>&nbsp;&nbsp; Leaders</li>
+                        <li><span class="det-icon"><i class="fa fa-phone"></i></span>&nbsp; 09020921692</li>
+                        <li><span class="det-icon"><i class="fa fa-envelope-open"></i></span>&nbsp; johndoe@gmail.com</li>
+                        <li><span class="det-icon"><i class="fa fa-globe"></i></span>&nbsp; greatdhistory.vercel.app</li>
+                        <li></li>
                     </ul>
                 </div>
             </div>
@@ -232,13 +188,11 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> 
    
-</div>
 
 
-<script src="video.js"></script>
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    
+
+    <script src="contact.js"></script>
 </body>
 </html>

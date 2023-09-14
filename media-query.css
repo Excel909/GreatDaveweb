@@ -120,8 +120,8 @@
 
     .m-links a:hover{
         border-left: 4px solid white;
-        background-color: rgb(202, 168, 123);
-        color: black;
+        background-color: #2f4563;
+        color: white;
     }
 
     .m-exit{
@@ -142,8 +142,8 @@
 
     a.active{
         border-left: 2px solid white;
-        background-color: rgb(202, 168, 123);
-        color: black;
+        background-color: #2f4563;
+        color:white;
     }
 
     .hamb-burger{

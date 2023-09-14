@@ -1,0 +1,134 @@
+@import url('video.css');
+
+.contact-nav{
+    font-family: calibri;
+    box-shadow: 0px 0px 15px 0px #ccc;
+}
+
+#contact-class{
+    margin:auto;
+    margin-top:50px;
+    width: 80%;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0px 0px 5px #ccc;
+    display: flex;
+    font-family: calibri;
+}
+
+.form{
+    width: 50%;
+    height: 100%;
+    color: white;
+    background-image: linear-gradient(to top left,#1b283a, #562974);
+}
+
+.email-sender{
+    width: 85%;
+    height: fit-content;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.f-heading{
+    width: 100%;
+    height: fit-content;
+    /* text-align: center; */
+    font-size: 16pt;
+    /* font-weight: bold; */
+    font-family: ;
+}
+
+.f-form{
+    margin-top: 50px;   
+    color: #999;
+}
+
+.dp1{
+    width: 300px;
+    padding: 10px;
+    margin-top: 3px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #888;
+    color: #888;
+}
+
+.dp1:focus{
+    border-bottom: 2px solid #888;
+    text-transform: capitalize;
+    color: white;
+}
+
+.dp2{
+    width: 300px;
+    padding: 10px;
+    margin-top: 3px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #888;
+    color: #888;
+    height: 150px;
+}
+
+.dp2:focus{
+    border: 2px solid #888;
+    text-transform: capitalize;
+    color: white;
+}
+
+#button{
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background:#74277e;
+}
+
+#button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.info{
+    width: 50%;
+    height: 100%;
+}
+
+.info-details{
+    width: 85%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.d-heading{
+    font-size: 20pt;   
+}
+
+.d-small{
+    font-size: 11pt;
+    margin-top: 10px;
+}
+
+.detailers{
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+.detailers ul{
+    margin: none;
+    list-style: none;
+    padding: 2px;
+}
+
+.detailers li{
+    padding: 10px;
+    font-size: 12pt;
+    margin-top: 30px;
+}
+
