@@ -83,10 +83,11 @@
         width: 80%;
         height: 100vh;
         z-index: 5;
-        background-color: #222;
+        background-color: whitesmoke;
         right: 0px;
         top: 0px;
         overflow-y: scroll;
+        font-family: calibri;
     }
 
     #m-nav:target{
@@ -106,7 +107,7 @@
     }
 
     .m-links a{
-        color: white;
+        color: #222;
         display: flex;
         width: 100%;
         padding: 20px;
@@ -132,7 +133,7 @@
     a.exit{
         font-size: 16pt;
         font-weight: bolder;
-        color: white;
+        color: #222;
         background-color: transparent;
         border: none;
         text-decoration: none;
