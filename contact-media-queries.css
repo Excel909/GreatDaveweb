@@ -8,7 +8,7 @@
     width: 100%;
     height: fit-content;
     background-color: whitesmoke;
-    box-shadow: none;
+    border:none;
     display: block;
     font-family: calibri;
 }
