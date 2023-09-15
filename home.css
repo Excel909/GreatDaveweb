@@ -270,16 +270,14 @@ body{
     height: 90%;
     background-color: #2a3e5a;
     margin: auto;
-    border-bottom-left-radius:100%;
-    border-top-left-radius:100%;
-    border-top-right-radius:100%;
-    border-bottom-right-radius:10%;
     justify-content: space-around;
     align-items: center;
     display: flex;
     color: white;
     font-family: calibri;
-    box-shadow: 10px 10px 25px 0px #585c61;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    /* box-shadow: 10px 10px 25px 0px #585c61; */
 }
 
 .grid-img{
@@ -590,7 +588,7 @@ body{
 #blog-pages-foot{
     width: 100%;
     height: 60vh;
-    background-image: linear-gradient(to top left,#1b283a, #562974);
+    background-color: #222;
     margin-top: 100px;
     font-family: calibri;
 }

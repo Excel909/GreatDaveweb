@@ -133,7 +133,7 @@
     a.exit{
         font-size: 16pt;
         font-weight: bolder;
-        color: #222;
+        color: #222 ;
         background-color: transparent;
         border: none;
         text-decoration: none;
@@ -363,16 +363,13 @@
         height: 220px;
         background-color: #2a3e5a;
         margin: auto;
-        border-bottom-left-radius:100%;
-        border-top-left-radius:100%;
-        border-top-right-radius:100%;
-        border-bottom-right-radius:10%;
+        border-bottom-left-radius:50px;
+        border-bottom-right-radius:50px;
         justify-content: space-around;
         align-items: center;
         display: flex;
         color: white;
         font-family: calibri;
-        box-shadow: 10px 10px 25px 0px #585c61;
     }
     
     .grid-img{
@@ -440,7 +437,7 @@
     #blog-pages-foot{
         width: 100%;
         height: fit-content;
-        background-color: #2a3e5a;
+        background-color: #222;
         margin-top: 100px;
         font-family: calibri;
     }

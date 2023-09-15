@@ -11,7 +11,7 @@
     width: 80%;
     height: fit-content;
     background-color: white;
-    border: 2px solid lightgrey;
+    /* border: 2px solid lightgrey; */
     display: flex;
     font-family: calibri;
 }
@@ -116,7 +116,7 @@
 .detailers{
     width: 100%;
     height: fit-content;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .detailers ul{
@@ -128,6 +128,6 @@
 .detailers li{
     padding: 10px;
     font-size: 12pt;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 

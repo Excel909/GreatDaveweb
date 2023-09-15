@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greatdave</title>
+
+    <link rel="stylesheet" type="text/css" href="quotes.css">
+    <link rel="stylesheet" type="text/css" href="quote-queries.css">
+
+    <script src="code.jquery.com_jquery-3.7.0.js" type="text/javascript"></script>
+    <script type="text/javascript" src="code.jquery.com_jquery-3.7.0.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- links for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>
+    
+
+    <div id="m-nav" class="m-nav">
+            
+        <div class="m-exit">
+            <a href="#" class="exit"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="m-links">
+            <ul>
+                <li><a href="index.html" class="active">Home <i class="fa fa-home"></i></a></li>
+                <li><a href="video.html">Videos <i class="fa fa-video"></i></a></li>
+                <li><a href="#">posts<i class="fa-solid fa-blog"></i></a></li>
+                <li><a href="quote.html">Quotes <i class="fa-solid fa-quote-left"></i></a></li>
+                <li><a href="contact.html">Contact<i class="fa fa-mobile"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="m-copyright">
+            (c) 2023 Greatdave - All rights reserved
+        </div>
+       
+    </div>
+
+    <div class="row-1 vid-nav">
+        <div class="row-1-inner">
+            <div class="logo">
+                <div class="symbol">G</div><div class="logo-text">GD</div>
+            </div>
+            <div class="links">
+                <div class="link-1">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="link-2">
+                    <a href="video.html">Videos</a>
+                </div>
+
+                <div class="link-3">
+                    <a href="#">posts</a>
+                </div>
+
+                <div class="link-4">
+                    <a href="quote.html">Quotes</a>
+                </div>
+
+                <div class="link-5">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>   
+            
+            <div class="contact">
+                <i class="fa fa-television"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-share-alt"></i>
+            </div>
+
+            <div class="hamb-burger">
+                <a href="#m-nav" class="mb">&#9776;</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="quotes-container">
+        <div class="quote-header">
+            Greatdave Quotes
+        </div>
+
+        <div class="quote-searcher">
+            <input type="search" placeholder="search quote..." id="searcher"><button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="quotes">
+            <ul id="quote-list">
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://images.unsplash.com/photo-1650856057408-3e6034e73ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~plato~</cite>
+                        </div>
+                        "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light."
+                    </div>
+                </li>
+
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEdLK_We9UHC8PE5KZntR1TX7R8F__wWHUwEWNZ4chi1us4pVS" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~Matshona Dhliwayo~</cite>
+                        </div>
+                        "Believe in love, not religion."
+                    </div>
+                </li>
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEdLK_We9UHC8PE5KZntR1TX7R8F__wWHUwEWNZ4chi1us4pVS" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~Matshona Dhliwayo~</cite>
+                        </div>
+                        "Truth is thick-skinned, no arrow can pierce it."
+                    </div>
+                </li>
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEdLK_We9UHC8PE5KZntR1TX7R8F__wWHUwEWNZ4chi1us4pVS" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~Matshona Dhliwayo~</cite>
+                        </div>
+                        "An ounce of reality is greater than a pound of fantasy."
+                    </div>
+                </li>
+
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://images.unsplash.com/photo-1650856057408-3e6034e73ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~plato~</cite>
+                        </div>
+                        "A good decision is based on knowledge and not on numbers"
+                    </div>
+                </li>
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://images.unsplash.com/photo-1650856057408-3e6034e73ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~plato~</cite>
+                        </div>
+                        “Truth is the beginning of every good to the gods, and of every good to man.”
+                    </div>
+                </li>
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://images.unsplash.com/photo-1650856057408-3e6034e73ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~plato~</cite>
+                        </div>
+                        "All men are by nature equal, made all of the same earth by one workman
+                    </div>
+                </li>
+
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://images.unsplash.com/photo-1650856057408-3e6034e73ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~plato~</cite>
+                        </div>
+                        "Opinion is the medium between knowledge and ignorance"
+                    </div>
+                </li>
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://images.unsplash.com/photo-1650856057408-3e6034e73ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~plato~</cite>
+                        </div>
+                        "The direction in which Education starts, a man will determine his life"
+                    </div>
+                </li>
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://images.unsplash.com/photo-1650856057408-3e6034e73ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~plato~</cite>
+                        </div>
+                        "Bodily exercise, when compulsory, does no harm to the body; but knowledge which is acquired under compulsion obtains no hold on the mind."
+                    </div>
+                </li>
+
+
+
+                
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://images.unsplash.com/photo-1622411800285-efede78b46c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdpbGhlbSUyMGFudG9uJTIwcGhpbG9zb3BoZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~Epictetus~</cite>
+                        </div>
+                        "We have two ears and one mouth so that we can listen as much as we speak"
+                    </div>
+                </li>
+
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEdLK_We9UHC8PE5KZntR1TX7R8F__wWHUwEWNZ4chi1us4pVS" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~Matshona Dhliwayo~</cite>
+                        </div>
+                        "Truth is awake, even when its eyes are shut."
+                    </div>
+                </li>
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEdLK_We9UHC8PE5KZntR1TX7R8F__wWHUwEWNZ4chi1us4pVS" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~Matshona Dhliwayo~</cite>
+                        </div>
+                        "If you point to truth, all the short sighted will see is your finger."
+                    </div>
+                </li>
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEdLK_We9UHC8PE5KZntR1TX7R8F__wWHUwEWNZ4chi1us4pVS" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~Matshona Dhliwayo~</cite>
+                        </div>
+                        "You can curse the dark or you can turn the light on."
+                    </div>
+                </li>
+
+                
+                
+
+
+                
+
+                <li class="quote-li">
+                    <div class="quote-pic">
+                        <img src="https://images.unsplash.com/photo-1650856057408-3e6034e73ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" class="quote-img">
+                    </div>
+
+                    <div class="quotation">
+                        <div class="quote-cite">
+                            <cite>~Marcus aurelius~</cite>
+                        </div>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates molestias perferendis culpa inventore accusantium! Veritatis quos fuga aspernatur consectetur modi?
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="quote.js"></script>
+
+</body>
+</html>

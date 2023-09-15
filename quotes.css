@@ -1,0 +1,110 @@
+@import url('video.css');
+
+body{
+    font-family: calibri;
+}
+.quotes-container{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.quote-header{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    font-size: 23pt;
+    background: linear-gradient(to top left,#1b283a, #562974);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    /* text-shadow: 5px 5px 5px #222; */
+}
+
+.quote-searcher{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#searcher{
+    width: 350px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid #1b283a;
+    font-size: 12pt;
+}
+
+#search-btn{
+    width:60px;
+    height: 41px;
+    border: none;
+    color: white;
+    background-color: #2f4563;
+}
+
+#search-btn:hover{
+    cursor:pointer;
+    opacity:0.9;
+}
+
+.quotes{
+    width: 90%;
+    padding: 10px;
+    background-color: #e5e5e5;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.quotes ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.quote-li{
+    display: block;
+    height: 300px;
+    width: 250px;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.quote-li:hover{
+    color: #2f4563;
+    cursor: pointer;
+}
+
+.quote-pic{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.quote-img{
+    width: 60%;
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quotation{
+    height: 50%;
+    padding: 10px;
+    text-align: center;
+    overflow-y: scroll;
+    line-height: 1.3;
+}
+
+.quote-cite{
+    color: #2f4563;
+}
