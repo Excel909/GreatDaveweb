@@ -16,14 +16,17 @@
         margin: auto;
         margin-top: 40px;
         text-align: center;
+        height: 42px;
     }
 
     #searcher{
         width: 80%;
+        height: 100%;
     }
 
     #search-btn{
         width: 20%;
+        height: 101%;
     }
 
     .quotes{
@@ -32,7 +35,10 @@
 
     .quotes ul{
         grid-template-columns: auto;
+        gap: 1%;
     }
+
+
 
 
 };

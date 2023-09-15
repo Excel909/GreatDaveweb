@@ -58,14 +58,16 @@ body{
     background-color: #e5e5e5;
     margin: auto;
     margin-top: 40px;
+    overflow-x: scroll;
 }
 
 .quotes ul{
-    padding: 0;
+    padding: 0px;
     margin: 0;
     list-style-type: none;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    /* gap: 1% 1%; */
 }
 
 .quote-li{

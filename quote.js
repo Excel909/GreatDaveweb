@@ -1,7 +1,12 @@
 var searchbar = document.getElementById('searcher');
+var search_btn = document.getElementById('search-btn');
 
-searchbar.addEventListener("input", function(){
-    let input = this.value;
+search_btn.addEventListener('click', inputSearch, false);
+
+searchbar.addEventListener("input", inputSearch, false);
+
+function inputSearch() { 
+    let input = document.getElementById('searcher').value;
     input = input.toLowerCase();
 
     let stoic = document.getElementsByClassName('quote-li');
@@ -13,6 +18,8 @@ searchbar.addEventListener("input", function(){
             stoic[i].style.display = "block";
         };
     };
+};
 
-}, false);
+
+
 
